@@ -1,7 +1,9 @@
+package Lesson0;
+
 import java.util.Scanner;
 
-public class Lesson0 {
-    public static void main(String[] args) {
+public class HelloUser {
+    public void userName() {
         Scanner scanner = new Scanner(System.in);
         String user = scanner.next();
 
