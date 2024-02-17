@@ -3,8 +3,8 @@ package Lesson2;
 import java.util.Scanner;
 
 public class Calculator {
+    Scanner scanner = new Scanner(System.in);
     public void calculate(){
-        Scanner scanner = new Scanner(System.in);
         System.out.println("Введите два числа: ");
         double operand1 = scanner.nextDouble();
         double operand2 = scanner.nextDouble();

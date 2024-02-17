@@ -1,5 +1,6 @@
 import Lesson0.HelloUser;
 import Lesson2.Calculator;
+import Lesson2.NumberInterval;
 
 import java.util.Scanner;
 
@@ -20,8 +21,14 @@ public class Main {
             }
             case 2:
             {
-                Calculator calculator = new Calculator();
-                calculator.calculate();//1
+                Calculator calculator = new Calculator();//1
+                calculator.calculate();
+                break;
+            }
+            case 3:
+            {
+                NumberInterval numberInterval = new NumberInterval();//2
+                numberInterval.interval();
                 break;
             }
         }
