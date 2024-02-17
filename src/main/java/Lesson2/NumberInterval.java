@@ -10,15 +10,15 @@ public class NumberInterval {
 
         if(number>=0 && number<=100)
         {
-            if(number>=0 && number<=14)
+            if(number<15)
             {
                 System.out.println("Число входит в промежуток [0;14]");
             }
-            else if(number>=15 && number<=35)
+            else if(number<36)
             {
                 System.out.println("Число входит в промежуток [15;35]");
             }
-            else if(number>=36 && number<=50)
+            else if(number<51)
             {
                 System.out.println("Число входит в промежуток [36;50]");
             }

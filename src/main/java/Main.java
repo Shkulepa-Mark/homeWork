@@ -1,6 +1,7 @@
 import Lesson0.HelloUser;
 import Lesson2.Calculator;
 import Lesson2.NumberInterval;
+import Lesson2.Translator;
 
 import java.util.Scanner;
 
@@ -29,6 +30,12 @@ public class Main {
             {
                 NumberInterval numberInterval = new NumberInterval();//2
                 numberInterval.interval();
+                break;
+            }
+            case 4:
+            {
+                Translator translator = new Translator();//3
+                translator.translate();
                 break;
             }
         }
