@@ -1,6 +1,7 @@
 import Lesson0.HelloUser;
 import Lesson2.Calculator;
 import Lesson2.NumberInterval;
+import Lesson2.ParityOfNumbers;
 import Lesson2.Translator;
 
 import java.util.Scanner;
@@ -36,6 +37,12 @@ public class Main {
             {
                 Translator translator = new Translator();//3
                 translator.translate();
+                break;
+            }
+            case 5:
+            {
+                ParityOfNumbers parityOfNumbers = new ParityOfNumbers();//4
+                parityOfNumbers.parity();
                 break;
             }
         }
